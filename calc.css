@@ -35,6 +35,9 @@
 .multi{
 padding-left: 403px;
 }
+
+
+
 .click{
     margin-left: 238px;
     height: 40px;
@@ -46,3 +49,40 @@ padding-left: 403px;
 .click:hover{
     background: rgb(255, 255, 255);
 }
+
+
+
+@media (max-width:414px) and (max-height:896px){
+    .body{
+        background: rgb(19, 17, 17);
+    }
+    .multi{
+        padding: 0px;
+    }
+    .text{
+        font-size: 45px;
+        text-align: center;
+        font-weight: bolder;
+        color: rgb(251, 30, 30);
+
+    }
+    .click{
+        margin: 4% 37%;
+        font-weight: bolder;
+        font-size: 15px;
+        text-align: center;
+        background: rgba(31, 114, 161, 0.541);
+        text-decoration: none;
+        height: 32px;
+        width: 94px;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        position: relative;
+        
+    }
+    .calculator{
+        margin: 0px -7px;
+        width: 412px;
+    }
+       
+    }
